@@ -1,0 +1,49 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+
+        body {
+            background: linear-gradient(to right, rgb(36, 73, 114), rgb(146, 185, 3));
+            font-family: sans-serif;
+            margin: 0;
+            box-sizing: border-box;
+            height: 90vh ;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .location,
+        .temprature {
+            height: 30vh;
+            width: 50vh;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .degree-section {
+            align-items: center;
+            display: flex;
+            cursor: pointer;
+            /*to make it clickable*/
+
+
+        }
+
+        .degree-section span {
+            margin: 10px;
+            font-size: 30px;
+
+        }
+
+        .degree-section h2 {
+            font-size: 40px;
+
+        }

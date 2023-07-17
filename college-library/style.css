@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(to right,rgb(210, 113, 248),rgb(73, 102, 139));
+}
+
+.form-group{
+    background: linear-gradient(to right,rgb(210, 113, 248),rgb(73, 102, 139));
+}
+
+
+.navbar{
+    background: linear-gradient(to right,rgb(43, 8, 56),rgb(43, 8, 56));
+
+}
+
+/* .table thread{
+    background: linear-gradient(to right,rgb(43, 8, 56),rgb(43, 8, 56));
+} */
+
+/* body.message{
+    background: rgb(228, 57, 57);
+    background-color: rgb(228, 57, 57);
+} */

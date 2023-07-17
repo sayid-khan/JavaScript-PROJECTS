@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,  rgb(36, 73, 114), rgb(14, 211, 96));
+    text-align: center;
+    
+}
+
+.board{
+    /* margin: auto;
+    padding: 0; */
+    height: 80vh;
+    width: 100vw;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(3,auto);
+}
+
+
+.cell{
+    background-color:rgb(28, 228, 135);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px ;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+
+
+
+}
+
+
+/* to remove borders */
+.cell:hover{
+    background-color: rgb(84, 226, 160);
+}
+
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+
+.winningMessage {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-size: 10rem;
+    flex-direction: column;
+  }
+.winningMessage button{
+    font-size: 2rem;
+    color: white;
+    background-color : rgba(0, 0,0, 0.6);
+    cursor: pointer;
+    padding: .25em .5em;
+    border: 3px solid black;
+}
+
+.winningMessage button:hover{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.winningMessage.show{
+    display: flex ;
+}

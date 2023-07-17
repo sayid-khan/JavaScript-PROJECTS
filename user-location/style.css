@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(black, rgb(255, 255, 255));
+}
+
+button {
+    padding: 25px 46px;
+    font-size: 50px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: rgba(17, 0, 255, 0.205);
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+button:hover {
+    background-color: rgb(91, 200, 233);
+
+}

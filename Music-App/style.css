@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(124, 108, 126), rgb(240, 145, 161));
+    display: grid;
+    place-items: center;
+}
+
+.music {
+    height: 35rem;
+    width: 35rem;
+    background-color: rgb(221, 193, 216);
+    border-radius: 2rem;
+    text-align: center;
+    box-shadow: 0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.2);
+    padding: 3rem;
+}
+
+.music #title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.8);
+    margin: 2rem 0 0.5rem 0;
+
+}
+
+.music #artist {
+    font-size: 0.5rem;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+    text-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+
+}
+
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.controls {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 2rem;
+
+
+}
+
+
+
+.controls .fas {
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+
+}
+
+
+
+.controls .fas:hover {
+    color: rgb(145, 105, 56);
+}
+
+
+.anime {
+    animation: rotateplayer 3s linear infinite;
+}
+
+@keyframes rotateplayer {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
